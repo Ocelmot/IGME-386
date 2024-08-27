@@ -1,0 +1,252 @@
+{
+  "version" : 1,
+  "name" : "Raster Functions History",
+  "historyItems" : [
+    {
+      "id" : "{4D5541BE-1D95-4741-9DA6-B936D436BD48}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Aspect",
+      "description" : "Shows which direction a pixel is facing, where 0 is due north and angles increase clockwise to 360.",
+      "rftPath" : "Aspect_{4D5541BE-1D95-4741-9DA6-B936D436BD48}.rft.xml",
+      "startTime" : "638385374830000000",
+      "endTime" : "638385374830000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    },
+    {
+      "id" : "{667C761E-E6BC-4D2A-A08D-CA0E71ED9A8C}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Merge Rasters",
+      "description" : "Merges a collection of rasters on the fly.",
+      "rftPath" : "Merge Rasters_{667C761E-E6BC-4D2A-A08D-CA0E71ED9A8C}.rft.xml",
+      "startTime" : "638382873930000000",
+      "endTime" : "638382873990000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    },
+    {
+      "id" : "{195F00C5-4912-4547-8B71-812528093933}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Aspect-Slope",
+      "description" : "Creates a raster that simultaneously displays the aspect (direction) and slope (steepness) of a continuous surface, as represented in a digital elevation model.",
+      "rftPath" : "Aspect-Slope_{195F00C5-4912-4547-8B71-812528093933}.rft.xml",
+      "startTime" : "638385373830000000",
+      "endTime" : "638385373830000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    },
+    {
+      "id" : "{DDB202A6-7B29-4F7E-818E-732CEE5D499E}",
+      "type" : 1,
+      "status" : 4,
+      "name" : "Slope",
+      "description" : "Calculates the rate of change from one pixel value to its neighbors.",
+      "rftPath" : "Slope_{DDB202A6-7B29-4F7E-818E-732CEE5D499E}.rft.xml",
+      "startTime" : "638383740830000000",
+      "endTime" : "638383740830000000",
+      "validationMessages" : [
+        "The dataset variable 'Raster' is not assigned."
+      ],
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Parameter 'Raster' is missing or invalid. Bind failed in function 'Slope' [Slope Function].",
+            "Type" : 100
+          },
+          {
+            "Text" : "Failed.",
+            "Type" : 100
+          }
+        ]
+      }
+    },
+    {
+      "id" : "{1F3C36E0-B3E2-40D5-B38A-DCE2480DABDD}",
+      "type" : 1,
+      "status" : 4,
+      "name" : "Aspect",
+      "description" : "Shows which direction a pixel is facing, where 0 is due north and angles increase clockwise to 360.",
+      "rftPath" : "Aspect_{1F3C36E0-B3E2-40D5-B38A-DCE2480DABDD}.rft.xml",
+      "startTime" : "638383740900000000",
+      "endTime" : "638383740900000000",
+      "validationMessages" : [
+        "The dataset variable 'Raster' is not assigned."
+      ],
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Parameter 'Raster' is missing or invalid. Bind failed in function 'Aspect' [Aspect Function].\nFailed to open raster dataset",
+            "Type" : 100
+          },
+          {
+            "Text" : "Failed.",
+            "Type" : 100
+          }
+        ]
+      }
+    },
+    {
+      "id" : "{41B93081-9D93-495C-B40B-88908BEC7A46}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Aspect-Slope",
+      "description" : "Creates a raster that simultaneously displays the aspect (direction) and slope (steepness) of a continuous surface, as represented in a digital elevation model.",
+      "rftPath" : "Aspect-Slope_{41B93081-9D93-495C-B40B-88908BEC7A46}.rft.xml",
+      "startTime" : "638383741010000000",
+      "endTime" : "638383741020000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    },
+    {
+      "id" : "{227600B1-280C-4F94-92A7-C0437C8E07FF}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Slope",
+      "description" : "Calculates the rate of change from one pixel value to its neighbors.",
+      "rftPath" : "Slope_{227600B1-280C-4F94-92A7-C0437C8E07FF}.rft.xml",
+      "startTime" : "638383743700000000",
+      "endTime" : "638383743700000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    },
+    {
+      "id" : "{330200B4-E949-4723-85FE-1FB2AE1F3CDE}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Aspect-Slope",
+      "description" : "Creates a raster that simultaneously displays the aspect (direction) and slope (steepness) of a continuous surface, as represented in a digital elevation model.",
+      "rftPath" : "Aspect-Slope_{330200B4-E949-4723-85FE-1FB2AE1F3CDE}.rft.xml",
+      "startTime" : "638385373490000000",
+      "endTime" : "638385373500000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+To use these files:
+1) Create a directory under the ARCGis Pro project called 'scripts' and place
+    these files in that directory.
+2) Edit the main.py file to load the rasters you would like to analyze
+    and set the coordinates of the point of flow that you would like to use.
+3) Open the ARCGis Pro python console, right-click to show the menu and use
+    the 'load code' option and load the 'main.py' file. It should load the
+    others if needed. Press enter. The script should run and load the results
+    into the current map.
+
+The data used in the example is from
+https://cugir.library.cornell.edu/catalog/cugir-009000
+and
+https://cugir.library.cornell.edu/catalog/cugir-009096
